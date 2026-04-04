@@ -9,10 +9,22 @@ function About() {
   const team = [
     {
       name: 'Oliad Dandena',
-      role: 'Founder & Lead Software Engineer',
+      role: 'Software Architect & Full-Stack Developer',
       image: '👨‍💻',
-      bio: 'Full-stack developer with expertise in React, Node.js, and enterprise system architecture. Passionate about creating innovative tax audit solutions.',
-      expertise: ['React', 'Node.js', 'PostgreSQL', 'System Design'],
+      bio: 'Lead engineer responsible for SRS design, frontend development, and seamless backend system integration. Expert in building scalable enterprise architectures.',
+      expertise: ['SRS Design', 'React/TypeScript', 'System Integration', 'MERN Stack'],
+      social: {
+        linkedin: '#',
+        github: 'https://github.com/Oliyad-oli',
+        twitter: '#'
+      }
+    },
+    {
+      name: 'Borifan Dabasa',
+      role: 'Backend Software Engineer',
+      image: '👨‍💻',
+      bio: 'Specializes in server-side logic and database management, ensuring high-performance data processing and security for audit compliance.',
+      expertise: ['Node.js', 'API Design', 'Database Security', 'Tax Logic'],
       social: {
         linkedin: '#',
         github: '#',
@@ -20,29 +32,18 @@ function About() {
       }
     },
     {
-      name: 'Sarah Mekonnen',
-      role: 'Senior Tax Auditor',
-      image: '👩‍💼',
-      bio: '15+ years of experience in tax audit and compliance. Former senior auditor at Ministry of Revenue.',
-      expertise: ['Tax Compliance', 'Audit Planning', 'Risk Assessment'],
-      social: {
-        linkedin: '#',
-        twitter: '#'
-      }
-    },
-    {
-      name: 'Dr. Tadesse Haile',
-      role: 'Transfer Pricing Specialist',
+      name: 'Paulos Diriba',
+      role: 'Software Quality Assurance & Specialist',
       image: '👨‍🎓',
-      bio: 'PhD in International Taxation. Expert in cross-border transactions and transfer pricing regulations.',
-      expertise: ['Transfer Pricing', 'International Tax', 'BEPS'],
+      bio: 'Expert in international software standards and system validation, focusing on cross-border tax regulations and technical compliance.',
+      expertise: ['System Testing', 'International Standards', 'Technical Audit', 'QA'],
       social: {
         linkedin: '#',
+        github: '#',
         twitter: '#'
       }
     }
-  ];
-
+];
   const milestones = [
     { year: '2018', title: 'Company Founded', description: 'Started with a vision to transform tax audit management' },
     { year: '2019', title: 'First Major Client', description: 'Onboarded Ministry of Revenue as our first enterprise client' },

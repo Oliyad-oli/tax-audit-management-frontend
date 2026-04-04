@@ -432,17 +432,16 @@ function Login() {
               )}
             </button>
 
-            {/* Demo credentials */}
-            {isLogin && (
-              <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-100">
-                <p className="text-sm font-medium text-blue-800 mb-2">Demo Credentials:</p>
-                <div className="space-y-1 text-sm">
-                  <p className="text-blue-600">👨‍💼 Admin: admin@odflow.com / admin123</p>
-                  <p className="text-blue-600">👨‍💻 Auditor: auditor@odflow.com / auditor123</p>
-                  <p className="text-blue-600">👩‍💼 Manager: manager@odflow.com / manager123</p>
-                </div>
-              </div>
-            )}
+            {/* {isLogin && (
+              // <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-100">
+              //   <p className="text-sm font-medium text-blue-800 mb-2">Demo Credentials:</p>
+              //   <div className="space-y-1 text-sm">
+              //     <p className="text-blue-600">👨‍💼 Admin: admin@odflow.com / admin123</p>
+              //     <p className="text-blue-600">👨‍💻 Auditor: auditor@odflow.com / auditor123</p>
+              //     <p className="text-blue-600">👩‍💼 Manager: manager@odflow.com / manager123</p>
+              //   </div>
+              // </div>
+            )} */}
           </form>
 
           {/* Footer links */}
